@@ -84,4 +84,7 @@ kewl linux stuff
 >systemctl disable --now pmlogger
 >systemctl disable --now pmie_farm
 >systemctl disable --now pmlogger_farm
+>systemctl disable --now atd
+>systemctl disable --now fwupd
+>systemctl disable --now libstoragemgmt
 > ```
