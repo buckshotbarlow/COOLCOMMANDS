@@ -17,8 +17,9 @@ Get rid of Rocky10 bloatware:
 > ```
 </>
 <br>
-Get rid of uneeded fw, use with caution!
-[!CAUTION]
+>[!CAUTION]
+> Get rid of uneeded fw, use with caution!
 > ```bash
 > sudo dnf remove -y amd-gpu-firmware atheros-firmware brcmfmac-firmware iwlwifi-dvm-firmware iwlwifi-mvm-firmware mt7xxx-firmware nxpwireless-firmware tiwilink-firmware realtek-firmware netronome-firmware nvidia-gpu-firmware cirrus-audio-firmware
 > ```
+</>
