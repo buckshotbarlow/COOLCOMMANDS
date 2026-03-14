@@ -71,3 +71,17 @@ kewl linux stuff
 > nvidia-gpu-firmware \
 > cirrus-audio-firmware
 > ```
+
+## ROCKY10U1 unneeded services
+>[!TIP]
+> ```bash
+>systemctl disable --now colord
+>systemctl disable --now upower
+>systemctl disable --now udisks2
+>systemctl disable --now alsa-state
+>systemctl disable --now pmcd
+>systemctl disable --now pmie
+>systemctl disable --now pmlogger
+>systemctl disable --now pmie_farm
+>systemctl disable --now pmlogger_farm
+> ```
