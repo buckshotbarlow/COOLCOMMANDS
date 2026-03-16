@@ -16,8 +16,12 @@ kewl linux stuff
 >
 > ```bash
 > cmp image.iso /dev/sdX
-> ```
-
+>
+>  ```
+> #Wipe drives command from a live iso: Then wipe it:
+> wipefs -a /dev/nvme2n1
+> sgdisk --zap-all /dev/nvme2n1
+> dd if=/dev/zero of=/dev/nvme2n1 bs=1M count=100
 ---
 
 ## Remove Rocky Linux 10 desktop bloat
